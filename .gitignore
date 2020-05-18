@@ -3,3 +3,8 @@
 *.cxxflags
 *.files
 *.includes
+*.obj
+*.o
+*.s
+*.creator
+*.creator.user
