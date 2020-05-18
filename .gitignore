@@ -1,0 +1,5 @@
+*.cflags
+*.config
+*.cxxflags
+*.files
+*.includes
