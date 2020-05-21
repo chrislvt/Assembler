@@ -37,10 +37,10 @@ int main()
     cout << "Length of " << src << " is " << len << endl;
 
     dst.resize(src.length());
-    lvt_strcpy(&src[0], &src[1], 4);
+    lvt_strcpy(&dst[0], &src[0], 4);
 
     cout << "Source string: " << src << endl;
-    cout << "Destination string: " << src << endl;
+    cout << "Destination string: " << dst << endl;
 
     return 0;
 }
